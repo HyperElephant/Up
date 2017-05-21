@@ -97,6 +97,10 @@
 		74ED37A71ED141A1005A924A /* Up */ = {
 			isa = PBXGroup;
 			children = (
+				74ED37D91ED141FD005A924A /* Helpers */,
+				74ED37D81ED141F0005A924A /* ViewModels */,
+				74ED37D71ED141EA005A924A /* Views */,
+				74ED37D61ED141BD005A924A /* Models */,
 				74ED37A81ED141A1005A924A /* AppDelegate.swift */,
 				74ED37AA1ED141A1005A924A /* ViewController.swift */,
 				74ED37AC1ED141A1005A924A /* Main.storyboard */,
@@ -123,6 +127,34 @@
 				74ED37CA1ED141A1005A924A /* Info.plist */,
 			);
 			path = UpUITests;
+			sourceTree = "<group>";
+		};
+		74ED37D61ED141BD005A924A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		74ED37D71ED141EA005A924A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		74ED37D81ED141F0005A924A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		74ED37D91ED141FD005A924A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
