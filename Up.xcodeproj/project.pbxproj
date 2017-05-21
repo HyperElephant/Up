@@ -12,6 +12,12 @@
 		74AC04AF1ED14BD900ECB90A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AC04AE1ED14BD900ECB90A /* GoogleService-Info.plist */; };
 		74AC04B01ED14BD900ECB90A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AC04AE1ED14BD900ECB90A /* GoogleService-Info.plist */; };
 		74AC04B11ED14BD900ECB90A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AC04AE1ED14BD900ECB90A /* GoogleService-Info.plist */; };
+		74AC04B41ED1506400ECB90A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04B21ED1506400ECB90A /* LoginViewController.swift */; };
+		74AC04B51ED1506400ECB90A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04B21ED1506400ECB90A /* LoginViewController.swift */; };
+		74AC04B61ED1506400ECB90A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04B21ED1506400ECB90A /* LoginViewController.swift */; };
+		74AC04BB1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
+		74AC04BC1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
+		74AC04BD1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
 		74ED37A91ED141A1005A924A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED37A81ED141A1005A924A /* AppDelegate.swift */; };
 		74ED37AB1ED141A1005A924A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED37AA1ED141A1005A924A /* ViewController.swift */; };
 		74ED37AE1ED141A1005A924A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ED37AC1ED141A1005A924A /* Main.storyboard */; };
@@ -46,6 +52,8 @@
 		2FA557A24D477AF74CB28556 /* Pods-UpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpUITests/Pods-UpUITests.release.xcconfig"; sourceTree = "<group>"; };
 		592AB25AFE1488DD4E52F2D1 /* Pods_UpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AC04AE1ED14BD900ECB90A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74AC04B21ED1506400ECB90A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Views/LoginViewController.swift; sourceTree = "<group>"; };
+		74AC04BA1ED1513900ECB90A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = ViewModels/MainViewModel.swift; sourceTree = "<group>"; };
 		74ED37A51ED141A1005A924A /* Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Up.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED37A81ED141A1005A924A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74ED37AA1ED141A1005A924A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +179,7 @@
 		74ED37D71ED141EA005A924A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				74AC04B21ED1506400ECB90A /* LoginViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -178,6 +187,7 @@
 		74ED37D81ED141F0005A924A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				74AC04BA1ED1513900ECB90A /* MainViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -487,8 +497,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04B41ED1506400ECB90A /* LoginViewController.swift in Sources */,
 				74ED37AB1ED141A1005A924A /* ViewController.swift in Sources */,
 				74ED37A91ED141A1005A924A /* AppDelegate.swift in Sources */,
+				74AC04BB1ED1513900ECB90A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +508,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04B51ED1506400ECB90A /* LoginViewController.swift in Sources */,
 				74ED37BE1ED141A1005A924A /* UpTests.swift in Sources */,
+				74AC04BC1ED1513900ECB90A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +518,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04B61ED1506400ECB90A /* LoginViewController.swift in Sources */,
 				74ED37C91ED141A1005A924A /* UpUITests.swift in Sources */,
+				74AC04BD1ED1513900ECB90A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
