@@ -8,6 +8,8 @@ target 'Up' do
   pod 'SwiftyJSON'
   pod 'ReactiveCocoa', '~> 5.0.0'
   pod 'Alamofire', '~> 4.4'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'UpTests' do
     inherit! :search_paths
