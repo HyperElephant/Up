@@ -18,6 +18,24 @@
 		74AC04BB1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
 		74AC04BC1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
 		74AC04BD1ED1513900ECB90A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BA1ED1513900ECB90A /* MainViewModel.swift */; };
+		74AC04BF1ED21AA300ECB90A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BE1ED21AA300ECB90A /* LoginViewModel.swift */; };
+		74AC04C01ED21AA300ECB90A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BE1ED21AA300ECB90A /* LoginViewModel.swift */; };
+		74AC04C11ED21AA300ECB90A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04BE1ED21AA300ECB90A /* LoginViewModel.swift */; };
+		74AC04C41ED21E3B00ECB90A /* UpStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C31ED21E3B00ECB90A /* UpStyleKit.swift */; };
+		74AC04C51ED21E3B00ECB90A /* UpStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C31ED21E3B00ECB90A /* UpStyleKit.swift */; };
+		74AC04C61ED21E3B00ECB90A /* UpStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C31ED21E3B00ECB90A /* UpStyleKit.swift */; };
+		74AC04CB1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C81ED21E6B00ECB90A /* CheckmarkView.swift */; };
+		74AC04CC1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C81ED21E6B00ECB90A /* CheckmarkView.swift */; };
+		74AC04CD1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C81ED21E6B00ECB90A /* CheckmarkView.swift */; };
+		74AC04CE1ED21E6B00ECB90A /* UpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C91ED21E6B00ECB90A /* UpButton.swift */; };
+		74AC04CF1ED21E6B00ECB90A /* UpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C91ED21E6B00ECB90A /* UpButton.swift */; };
+		74AC04D01ED21E6B00ECB90A /* UpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04C91ED21E6B00ECB90A /* UpButton.swift */; };
+		74AC04D11ED21E6B00ECB90A /* DownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04CA1ED21E6B00ECB90A /* DownButton.swift */; };
+		74AC04D21ED21E6B00ECB90A /* DownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04CA1ED21E6B00ECB90A /* DownButton.swift */; };
+		74AC04D31ED21E6B00ECB90A /* DownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04CA1ED21E6B00ECB90A /* DownButton.swift */; };
+		74AC04D51ED21EB300ECB90A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04D41ED21EB300ECB90A /* Helpers.swift */; };
+		74AC04D61ED21EB300ECB90A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04D41ED21EB300ECB90A /* Helpers.swift */; };
+		74AC04D71ED21EB300ECB90A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC04D41ED21EB300ECB90A /* Helpers.swift */; };
 		74ED37A91ED141A1005A924A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED37A81ED141A1005A924A /* AppDelegate.swift */; };
 		74ED37AB1ED141A1005A924A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED37AA1ED141A1005A924A /* ViewController.swift */; };
 		74ED37AE1ED141A1005A924A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ED37AC1ED141A1005A924A /* Main.storyboard */; };
@@ -54,6 +72,12 @@
 		74AC04AE1ED14BD900ECB90A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74AC04B21ED1506400ECB90A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Views/LoginViewController.swift; sourceTree = "<group>"; };
 		74AC04BA1ED1513900ECB90A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = ViewModels/MainViewModel.swift; sourceTree = "<group>"; };
+		74AC04BE1ED21AA300ECB90A /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ViewModels/LoginViewModel.swift; sourceTree = "<group>"; };
+		74AC04C31ED21E3B00ECB90A /* UpStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpStyleKit.swift; sourceTree = "<group>"; };
+		74AC04C81ED21E6B00ECB90A /* CheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkView.swift; sourceTree = "<group>"; };
+		74AC04C91ED21E6B00ECB90A /* UpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpButton.swift; sourceTree = "<group>"; };
+		74AC04CA1ED21E6B00ECB90A /* DownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownButton.swift; sourceTree = "<group>"; };
+		74AC04D41ED21EB300ECB90A /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		74ED37A51ED141A1005A924A /* Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Up.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED37A81ED141A1005A924A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74ED37AA1ED141A1005A924A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +135,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		74AC04C21ED21E1A00ECB90A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				74AC04C31ED21E3B00ECB90A /* UpStyleKit.swift */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		74AC04C71ED21E5C00ECB90A /* View Elements */ = {
+			isa = PBXGroup;
+			children = (
+				74AC04C81ED21E6B00ECB90A /* CheckmarkView.swift */,
+				74AC04C91ED21E6B00ECB90A /* UpButton.swift */,
+				74AC04CA1ED21E6B00ECB90A /* DownButton.swift */,
+			);
+			name = "View Elements";
+			sourceTree = "<group>";
+		};
 		74ED379C1ED141A1005A924A = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +178,7 @@
 		74ED37A71ED141A1005A924A /* Up */ = {
 			isa = PBXGroup;
 			children = (
+				74AC04C21ED21E1A00ECB90A /* Styles */,
 				74ED37D91ED141FD005A924A /* Helpers */,
 				74ED37D81ED141F0005A924A /* ViewModels */,
 				74ED37D71ED141EA005A924A /* Views */,
@@ -179,6 +222,7 @@
 		74ED37D71ED141EA005A924A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				74AC04C71ED21E5C00ECB90A /* View Elements */,
 				74AC04B21ED1506400ECB90A /* LoginViewController.swift */,
 			);
 			name = Views;
@@ -188,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				74AC04BA1ED1513900ECB90A /* MainViewModel.swift */,
+				74AC04BE1ED21AA300ECB90A /* LoginViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -195,6 +240,7 @@
 		74ED37D91ED141FD005A924A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				74AC04D41ED21EB300ECB90A /* Helpers.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -497,10 +543,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04CB1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */,
 				74AC04B41ED1506400ECB90A /* LoginViewController.swift in Sources */,
+				74AC04CE1ED21E6B00ECB90A /* UpButton.swift in Sources */,
+				74AC04D51ED21EB300ECB90A /* Helpers.swift in Sources */,
 				74ED37AB1ED141A1005A924A /* ViewController.swift in Sources */,
+				74AC04D11ED21E6B00ECB90A /* DownButton.swift in Sources */,
 				74ED37A91ED141A1005A924A /* AppDelegate.swift in Sources */,
+				74AC04BF1ED21AA300ECB90A /* LoginViewModel.swift in Sources */,
 				74AC04BB1ED1513900ECB90A /* MainViewModel.swift in Sources */,
+				74AC04C41ED21E3B00ECB90A /* UpStyleKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,9 +560,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04C01ED21AA300ECB90A /* LoginViewModel.swift in Sources */,
 				74AC04B51ED1506400ECB90A /* LoginViewController.swift in Sources */,
 				74ED37BE1ED141A1005A924A /* UpTests.swift in Sources */,
 				74AC04BC1ED1513900ECB90A /* MainViewModel.swift in Sources */,
+				74AC04D61ED21EB300ECB90A /* Helpers.swift in Sources */,
+				74AC04CC1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */,
+				74AC04C51ED21E3B00ECB90A /* UpStyleKit.swift in Sources */,
+				74AC04CF1ED21E6B00ECB90A /* UpButton.swift in Sources */,
+				74AC04D21ED21E6B00ECB90A /* DownButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,9 +576,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC04C11ED21AA300ECB90A /* LoginViewModel.swift in Sources */,
 				74AC04B61ED1506400ECB90A /* LoginViewController.swift in Sources */,
 				74ED37C91ED141A1005A924A /* UpUITests.swift in Sources */,
 				74AC04BD1ED1513900ECB90A /* MainViewModel.swift in Sources */,
+				74AC04D71ED21EB300ECB90A /* Helpers.swift in Sources */,
+				74AC04CD1ED21E6B00ECB90A /* CheckmarkView.swift in Sources */,
+				74AC04C61ED21E3B00ECB90A /* UpStyleKit.swift in Sources */,
+				74AC04D01ED21E6B00ECB90A /* UpButton.swift in Sources */,
+				74AC04D31ED21E6B00ECB90A /* DownButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,6 @@
 //  Copyright © 2017 Hyper Elephant. All rights reserved.
 //
 
-import UIKit
 import ReactiveCocoa
 import ReactiveSwift
 import Result
@@ -19,6 +18,10 @@ class MainViewModel: NSObject {
     {
         TitleString = MutableProperty("Test")
         super.init()
+    }
+    
+    func changeTitle(){
+        TitleString.swap("Changed")
     }
 
 }

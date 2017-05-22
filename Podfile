@@ -10,6 +10,7 @@ target 'Up' do
   pod 'Alamofire', '~> 4.4'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
   target 'UpTests' do
     inherit! :search_paths

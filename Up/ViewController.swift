@@ -21,11 +21,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if(segue.identifier == "GoToLogin"){
-            if let controller = segue.destination as? LoginViewController{
-                controller.modelData = MainViewModel()
-            }
-        }
+        
     }
 
 }
